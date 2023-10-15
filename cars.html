@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movies</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:visited {
+        color: black;
+      }
+      .nav-link {
+        font-size: large;
+        margin: 0 10px;
+      }
+      .carousel-item {
+        height: 10rem;
+      }
+      .carousel-item p {
+        position: relative;
+        margin-top: 50px;
+        font-size: 30px;
+      }
+      .container {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      #info {
+        border-bottom: 5px solid black;
+        margin-top: 10px;
+      }
+      .recensies p {
+        border: 2px solid black;
+        padding: 5px;
+      }
+      .display-6 {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+      .col-sm-6 img {
+        border-bottom: 5px solid black;
+      }
+      textarea {
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light pt-4 pb-4  ">
+      <div class="container-xxl">
+        <!-- toggle button for mobile nav -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse align-center justify-content-center" id="main-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="create.html">Create</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-imagea active">
+          <img src="https://myrepublica.nagariknetwork.com/uploads/media/2018/December/movies%202018.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item carousel-image">
+          <img src="https://www.brantlibrary.ca/en/resourcesGeneral/Movie-banner-1400px-x-500px.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item carousel-image">
+          <img src="https://149512919.v2.pressablecdn.com/wp-content/uploads/2021/12/philly-movies-hero-banner.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <!-- about me -->
+    <div>
+      <div class="container about">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 ">
+            <img src="https://m.media-amazon.com/images/I/811IcpNS05L._AC_UF894,1000_QL80_.jpg" alt="cars" class="img-fluid pb-3">
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h1>Cars </h1>
+            <p class="display-6">2006</p>
+            <b>John Lasseter · Joe Ranft</b>
+            <p id="info">
+              "Cars" volgt het verhaal van Bliksem McQueen, een arrogante raceauto die op weg is naar de Piston Cup-kampioenschappen. 
+              Onderweg raakt hij verdwaald in het afgelegen stadje Radiator Springs aan Route 66. 
+              Daar ontmoet hij kleurrijke personages zoals Doc Hudson, een voormalige raceauto, Sally Carrera en Takel. 
+              Aanvankelijk wil Bliksem snel vertrekken, maar hij wordt gedwongen om te blijven en te helpen bij het herstellen van de eens bloeiende gemeenschap. 
+              In de loop van de tijd leert hij belangrijke levenslessen over vriendschap, nederigheid en het waarderen van anderen. 
+              Uiteindelijk verandert hij van een egoïstische racer in een betere auto en besluit hij om zijn race niet te winnen door vals te spelen, 
+              maar door eerlijk te racen. "Cars" is een hartverwarmende film over persoonlijke groei en de kracht van gemeenschap.
+            </p>
+            <div class="recensies">
+              <h2 class="display-3">RECENSIES</h2>
+              <p>- Emily Johnson
+                <br> &nbsp &nbsp★★★★☆ <br>  "Geweldige film! De personages zijn charmant en de boodschap van vriendschap en nederigheid raakt echt het hart."
+              </p>
+              <p>- Michael Rodriguez
+                <br> &nbsp &nbsp★★★★★ <br>  "Een Pixar-meesterwerk! Cars combineert prachtige animatie met een hartverwarmend verhaal dat jong en oud zal bekoren."
+              </p>
+              <p>- Sarah Williams
+                <br> &nbsp &nbsp★★★★☆ <br>  "Cars is een must-see voor het hele gezin. Grappig, ontroerend en vol avontuur op de weg van Bliksem McQueen."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h2 class="display-3">Actors</h2>
+          <div class="col-sm-2">
+            <a href="owen_wilson.html">
+              <img src="https://i.guim.co.uk/img/static/sys-images/Film/Pix/pictures/2007/08/30/owenwilson_sq.jpg?width=465&dpr=1&s=none" alt="owen_wilson" class="img-fluid img-thumbnail">
+              <p>Owen Wilson</p>
+            </a>
+          </div>
+          <div class="col-sm-2">
+            <img src="https://www.themoviedb.org/t/p/w64_and_h64_face/tT9C6uLztgN8OxJULq6F9iEzqlA.jpg" alt="bonnie_hunt" class="img-fluid img-thumbnail" width="138px" height="138px">
+            <p>Bonnie Hunt</p>
+          </div>
+          <div class="col-sm-2">
+          </div>
+          <div class="col-sm-3">
+            
+            <form>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2">Naam</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Rudolph Tool">
+                <label for="exampleFormControlTextarea1" class="form-label">Recensie</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dit was echt een geweldige film!"></textarea>
+          
+              </div>
+              
+            </form>
+          </div>
+          <div class="col-sm-3">
+            
+            <form>
+              <div class="mb-3">
+         
+                <label for="formGroupExampleInput2">Rating</label>
+              <input type="text" class="form-control w-25" id="formGroupExampleInput2" placeholder="1">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+        <form>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <p class="mb-0">© 2023 Movies door: <a href="about.html" class="text-white fw-bold" target="_blank">Stef Rensma</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
